@@ -7,7 +7,7 @@
 
   <platform name="android">
     <config-file target="AndroidManifest.xml" parent="/manifest">
-	  <application android:hardwareAccelerated="true" android:largeHeap="true" />
+	  <application android:hardwareAccelerated="false" android:largeHeap="true" />
     </config-file>
   </platform>
 
