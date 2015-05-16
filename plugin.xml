@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="com.trainingoptimizationsystem.appgyver.steroids.largeheap.hack"
+        version="1.0.0">
+
+  <name>AppGyver Steroids Large Heap Hack</name>
+
+  <platform name="android">
+    <config-file target="AndroidManifest.xml" parent="/manifest">
+	  <application android:hardwareAccelerated="true" android:largeHeap="true" />
+    </config-file>
+  </platform>
+
+</plugin>
